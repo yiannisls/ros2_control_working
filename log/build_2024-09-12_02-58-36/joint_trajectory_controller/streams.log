@@ -1,0 +1,110 @@
+[0.057s] Invoking command in '/home/ylspyrou/humble_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/joint_trajectory_controller
+[0.153s] -- The C compiler identification is GNU 9.4.0
+[0.206s] -- The CXX compiler identification is GNU 9.4.0
+[0.215s] -- Check for working C compiler: /usr/bin/cc
+[0.294s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.295s] -- Detecting C compiler ABI info
+[0.370s] -- Detecting C compiler ABI info - done
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.487s] -- Detecting CXX compiler ABI info
+[0.589s] -- Detecting CXX compiler ABI info - done
+[0.603s] -- Detecting CXX compile features
+[0.604s] -- Detecting CXX compile features - done
+[0.606s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.637s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.637s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.827s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.861s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[0.864s] -- Found controller_interface: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_interface/share/controller_interface/cmake)
+[0.907s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.074s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.106s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.818s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.820s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.822s] -- Looking for pthread.h
+[1.915s] -- Looking for pthread.h - found
+[1.916s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.013s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.013s] -- Looking for pthread_create in pthreads
+[2.087s] -- Looking for pthread_create in pthreads - not found
+[2.088s] -- Looking for pthread_create in pthread
+[2.176s] -- Looking for pthread_create in pthread - found
+[2.177s] -- Found Threads: TRUE  
+[2.527s] -- Found realtime_tools: 2.2.0 (/home/ylspyrou/humble_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.701s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.703s] -- Found controller_manager: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake)
+[2.775s] -- Found ros2_control_test_assets: 0.11.0 (/home/ylspyrou/humble_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.780s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.783s] -- Check if compiler accepts -pthread
+[2.896s] -- Check if compiler accepts -pthread - yes
+[3.117s] -- Configuring done
+[3.239s] -- Generating done
+[3.242s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/joint_trajectory_controller
+[3.261s] Invoked command in '/home/ylspyrou/humble_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/joint_trajectory_controller
+[3.262s] Invoking command in '/home/ylspyrou/humble_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/joint_trajectory_controller -- -j2 -l2
+[3.330s] [35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[3.534s] [  6%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[14.305s] [ 13%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[14.943s] [ 20%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[15.797s] [ 20%] Built target joint_trajectory_controller
+[15.814s] [35m[1mScanning dependencies of target gtest[0m
+[15.835s] [ 26%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[21.043s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[21.134s] [ 33%] Built target gtest
+[21.150s] [35m[1mScanning dependencies of target gtest_main[0m
+[21.188s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[22.018s] [ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[22.069s] [ 46%] Built target gtest_main
+[22.095s] [35m[1mScanning dependencies of target test_trajectory[0m
+[22.139s] [ 53%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[23.571s] [ 60%] [32m[1mLinking CXX executable test_trajectory[0m
+[24.431s] [ 60%] Built target test_trajectory
+[24.462s] [35m[1mScanning dependencies of target test_trajectory_controller[0m
+[24.610s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[37.902s] [ 73%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[40.040s] [ 73%] Built target test_trajectory_controller
+[40.070s] [35m[1mScanning dependencies of target test_load_joint_trajectory_controller[0m
+[40.269s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[49.316s] [ 86%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[50.482s] [ 86%] Built target test_load_joint_trajectory_controller
+[50.515s] [35m[1mScanning dependencies of target test_trajectory_actions[0m
+[50.609s] [ 93%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[71.559s] [100%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[73.475s] [100%] Built target test_trajectory_actions
+[73.499s] Invoked command in '/home/ylspyrou/humble_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/joint_trajectory_controller -- -j2 -l2
+[73.564s] Invoking command in '/home/ylspyrou/humble_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/joint_trajectory_controller
+[73.582s] -- Install configuration: ""
+[73.583s] -- Execute custom install script
+[73.584s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[73.600s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp
+[73.611s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp
+[73.621s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory.hpp
+[73.632s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/visibility_control.h
+[73.644s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[73.657s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[73.669s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[73.684s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[73.696s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[73.708s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[73.720s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[73.732s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[73.743s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[73.755s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[73.766s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[73.783s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[73.794s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[73.806s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[73.819s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[73.830s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[73.842s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.857s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.872s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[73.884s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[73.896s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[73.908s] -- Symlinking: /home/ylspyrou/humble_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[73.925s] Invoked command in '/home/ylspyrou/humble_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/joint_trajectory_controller

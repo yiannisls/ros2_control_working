@@ -1,0 +1,18 @@
+[0.775s] Invoking command in '/home/ylspyrou/humble_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/ylspyrou/humble_ws/build/ros2_control_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ylspyrou/humble_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ylspyrou/humble_ws/build/ros2_control_test_nodes/build --no-deps symlink_data
+[1.063s] running develop
+[1.218s] running egg_info
+[1.218s] writing ros2_control_test_nodes.egg-info/PKG-INFO
+[1.218s] writing dependency_links to ros2_control_test_nodes.egg-info/dependency_links.txt
+[1.219s] writing entry points to ros2_control_test_nodes.egg-info/entry_points.txt
+[1.219s] writing requirements to ros2_control_test_nodes.egg-info/requires.txt
+[1.219s] writing top-level names to ros2_control_test_nodes.egg-info/top_level.txt
+[1.265s] reading manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.266s] writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.298s] running build_ext
+[1.299s] Creating /home/ylspyrou/humble_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[1.300s] Installing publisher_forward_position_controller script to /home/ylspyrou/humble_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[1.300s] Installing publisher_joint_trajectory_position_controller script to /home/ylspyrou/humble_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[1.300s] 
+[1.300s] Installed /home/ylspyrou/humble_ws/build/ros2_control_test_nodes
+[1.300s] running symlink_data
+[1.351s] Invoked command in '/home/ylspyrou/humble_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/ylspyrou/humble_ws/build/ros2_control_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ylspyrou/humble_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ylspyrou/humble_ws/build/ros2_control_test_nodes/build --no-deps symlink_data

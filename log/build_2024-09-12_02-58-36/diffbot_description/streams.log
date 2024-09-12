@@ -1,0 +1,50 @@
+[0.026s] Invoking command in '/home/ylspyrou/humble_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/diffbot_description
+[0.166s] -- The C compiler identification is GNU 9.4.0
+[0.226s] -- The CXX compiler identification is GNU 9.4.0
+[0.232s] -- Check for working C compiler: /usr/bin/cc
+[0.322s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.324s] -- Detecting C compiler ABI info
+[0.410s] -- Detecting C compiler ABI info - done
+[0.421s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.545s] -- Detecting CXX compiler ABI info
+[0.676s] -- Detecting CXX compiler ABI info - done
+[0.698s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.702s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.741s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.017s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.268s] -- Configuring done
+[1.270s] -- Generating done
+[1.271s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/diffbot_description
+[1.278s] Invoked command in '/home/ylspyrou/humble_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/diffbot_description
+[1.279s] Invoking command in '/home/ylspyrou/humble_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/diffbot_description -- -j2 -l2
+[1.346s] Invoked command in '/home/ylspyrou/humble_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/diffbot_description -- -j2 -l2
+[1.373s] Invoking command in '/home/ylspyrou/humble_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/diffbot_description
+[1.382s] -- Install configuration: ""
+[1.382s] -- Execute custom install script
+[1.422s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[1.441s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[1.452s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[1.474s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[1.486s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[1.495s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[1.510s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[1.523s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[1.532s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[1.544s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[1.555s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/environment/path.sh
+[1.564s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[1.581s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/local_setup.bash
+[1.599s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/local_setup.sh
+[1.619s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[1.632s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[1.645s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/package.dsv
+[1.655s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[1.666s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[1.676s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[1.687s] -- Symlinking: /home/ylspyrou/humble_ws/install/diffbot_description/share/diffbot_description/package.xml
+[1.702s] Invoked command in '/home/ylspyrou/humble_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/diffbot_description

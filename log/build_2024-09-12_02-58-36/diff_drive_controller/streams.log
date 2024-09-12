@@ -1,0 +1,110 @@
+[0.112s] Invoking command in '/home/ylspyrou/humble_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/diff_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/diff_drive_controller
+[0.244s] -- The C compiler identification is GNU 9.4.0
+[0.310s] -- The CXX compiler identification is GNU 9.4.0
+[0.318s] -- Check for working C compiler: /usr/bin/cc
+[0.403s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.406s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.498s] -- Detecting C compile features
+[0.498s] -- Detecting C compile features - done
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++
+[0.609s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.612s] -- Detecting CXX compiler ABI info
+[0.711s] -- Detecting CXX compiler ABI info - done
+[0.725s] -- Detecting CXX compile features
+[0.725s] -- Detecting CXX compile features - done
+[0.735s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.785s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.786s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.073s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.119s] -- Found controller_interface: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_interface/share/controller_interface/cmake)
+[1.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.192s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.327s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.357s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.112s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.115s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.117s] -- Looking for pthread.h
+[2.275s] -- Looking for pthread.h - found
+[2.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.367s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.368s] -- Looking for pthread_create in pthreads
+[2.436s] -- Looking for pthread_create in pthreads - not found
+[2.440s] -- Looking for pthread_create in pthread
+[2.541s] -- Looking for pthread_create in pthread - found
+[2.543s] -- Found Threads: TRUE  
+[2.887s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.970s] -- Found realtime_tools: 2.2.0 (/home/ylspyrou/humble_ws/install/realtime_tools/share/realtime_tools/cmake)
+[3.031s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.049s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[3.373s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.376s] -- Found controller_manager: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake)
+[3.505s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.513s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.515s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.690s] -- Configuring done
+[3.779s] -- Generating done
+[3.785s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/diff_drive_controller
+[3.801s] Invoked command in '/home/ylspyrou/humble_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/diff_drive_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/diff_drive_controller
+[3.809s] Invoking command in '/home/ylspyrou/humble_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/diff_drive_controller -- -j2 -l2
+[3.893s] [35m[1mScanning dependencies of target gmock[0m
+[3.954s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[9.205s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[11.922s] [ 20%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.011s] [ 20%] Built target gmock
+[12.025s] [35m[1mScanning dependencies of target gmock_main[0m
+[12.045s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[13.356s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.411s] [ 33%] Built target gmock_main
+[13.439s] [35m[1mScanning dependencies of target diff_drive_controller[0m
+[13.535s] [ 40%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[35.914s] [ 46%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[36.936s] [ 53%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[37.359s] [ 60%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[38.251s] [ 60%] Built target diff_drive_controller
+[38.275s] [35m[1mScanning dependencies of target test_accumulator[0m
+[38.323s] [ 66%] [32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o[0m
+[39.543s] [ 73%] [32m[1mLinking CXX executable test_accumulator[0m
+[39.836s] [ 73%] Built target test_accumulator
+[39.880s] [35m[1mScanning dependencies of target test_load_diff_drive_controller[0m
+[40.232s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[46.089s] [ 86%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[47.228s] [ 86%] Built target test_load_diff_drive_controller
+[47.255s] [35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[47.351s] [ 93%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[55.007s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[56.622s] [100%] Built target test_diff_drive_controller
+[56.643s] Invoked command in '/home/ylspyrou/humble_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/diff_drive_controller -- -j2 -l2
+[56.702s] Invoking command in '/home/ylspyrou/humble_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/diff_drive_controller
+[56.714s] -- Install configuration: ""
+[56.715s] -- Execute custom install script
+[56.715s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller//diff_drive_plugin.xml
+[56.729s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp
+[56.740s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/include/diff_drive_controller/odometry.hpp
+[56.751s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/include/diff_drive_controller/rolling_mean_accumulator.hpp
+[56.761s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/include/diff_drive_controller/speed_limiter.hpp
+[56.773s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/include/diff_drive_controller/visibility_control.h
+[56.785s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[56.797s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[56.819s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[56.834s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[56.845s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[56.858s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[56.871s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[56.881s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[56.892s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[56.907s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[56.924s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[56.937s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[56.950s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[56.964s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[56.975s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[56.986s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[56.996s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.013s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.028s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[57.040s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[57.051s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[57.062s] -- Symlinking: /home/ylspyrou/humble_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[57.081s] Invoked command in '/home/ylspyrou/humble_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/diff_drive_controller

@@ -1,0 +1,98 @@
+[0.124s] Invoking command in '/home/ylspyrou/humble_ws/build/velocity_controllers': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller/lib:/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/velocity_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/velocity_controllers
+[0.275s] -- The C compiler identification is GNU 9.4.0
+[0.345s] -- The CXX compiler identification is GNU 9.4.0
+[0.351s] -- Check for working C compiler: /usr/bin/cc
+[0.449s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.450s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.579s] -- Detecting C compile features
+[0.583s] -- Detecting C compile features - done
+[0.589s] -- Check for working CXX compiler: /usr/bin/c++
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.733s] -- Detecting CXX compiler ABI info
+[0.879s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Detecting CXX compile features
+[0.889s] -- Detecting CXX compile features - done
+[0.894s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.945s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.945s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.196s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.236s] -- Found forward_command_controller: 0.9.0 (/home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[1.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.296s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.436s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.485s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.493s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.496s] -- Looking for pthread.h
+[2.601s] -- Looking for pthread.h - found
+[2.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.712s] -- Looking for pthread_create in pthreads
+[2.811s] -- Looking for pthread_create in pthreads - not found
+[2.811s] -- Looking for pthread_create in pthread
+[2.921s] -- Looking for pthread_create in pthread - found
+[2.932s] -- Found Threads: TRUE  
+[3.952s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.954s] -- Found controller_manager: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake)
+[4.052s] -- Found ros2_control_test_assets: 0.11.0 (/home/ylspyrou/humble_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.056s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.065s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.066s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.389s] -- Configuring done
+[4.482s] -- Generating done
+[4.486s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/velocity_controllers
+[4.519s] Invoked command in '/home/ylspyrou/humble_ws/build/velocity_controllers' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller/lib:/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/velocity_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/velocity_controllers
+[4.520s] Invoking command in '/home/ylspyrou/humble_ws/build/velocity_controllers': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller/lib:/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/velocity_controllers -- -j2 -l2
+[4.625s] [35m[1mScanning dependencies of target gmock[0m
+[4.660s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[9.565s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[12.525s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.629s] [ 27%] Built target gmock
+[12.656s] [35m[1mScanning dependencies of target velocity_controllers[0m
+[12.719s] [ 36%] [32mBuilding CXX object CMakeFiles/velocity_controllers.dir/src/joint_group_velocity_controller.cpp.o[0m
+[15.908s] [ 45%] [32m[1mLinking CXX shared library libvelocity_controllers.so[0m
+[16.407s] [ 45%] Built target velocity_controllers
+[16.448s] [35m[1mScanning dependencies of target gmock_main[0m
+[16.552s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[18.156s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[18.210s] [ 63%] Built target gmock_main
+[18.227s] [35m[1mScanning dependencies of target test_joint_group_velocity_controller[0m
+[18.307s] [ 72%] [32mBuilding CXX object CMakeFiles/test_joint_group_velocity_controller.dir/test/test_joint_group_velocity_controller.cpp.o[0m
+[25.302s] [ 81%] [32m[1mLinking CXX executable test_joint_group_velocity_controller[0m
+[26.387s] [ 81%] Built target test_joint_group_velocity_controller
+[26.405s] [35m[1mScanning dependencies of target test_load_joint_group_velocity_controller[0m
+[26.489s] [ 90%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_velocity_controller.dir/test/test_load_joint_group_velocity_controller.cpp.o[0m
+[32.340s] [100%] [32m[1mLinking CXX executable test_load_joint_group_velocity_controller[0m
+[33.708s] [100%] Built target test_load_joint_group_velocity_controller
+[33.737s] Invoked command in '/home/ylspyrou/humble_ws/build/velocity_controllers' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller/lib:/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/velocity_controllers -- -j2 -l2
+[33.789s] Invoking command in '/home/ylspyrou/humble_ws/build/velocity_controllers': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller/lib:/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/velocity_controllers
+[33.805s] -- Install configuration: ""
+[33.805s] -- Execute custom install script
+[33.806s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers//velocity_controllers_plugins.xml
+[33.830s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/include/velocity_controllers/joint_group_velocity_controller.hpp
+[33.842s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/include/velocity_controllers/visibility_control.h
+[33.855s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/lib/libvelocity_controllers.so
+[33.885s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/environment/library_path.sh
+[33.914s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/environment/library_path.dsv
+[33.950s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/ament_index/resource_index/package_run_dependencies/velocity_controllers
+[33.951s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/ament_index/resource_index/parent_prefix_path/velocity_controllers
+[33.974s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/environment/ament_prefix_path.sh
+[34.004s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/environment/ament_prefix_path.dsv
+[34.011s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/environment/path.sh
+[34.024s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/environment/path.dsv
+[34.043s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/local_setup.bash
+[34.065s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/local_setup.sh
+[34.107s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/local_setup.zsh
+[34.150s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/local_setup.dsv
+[34.184s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/package.dsv
+[34.218s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/ament_index/resource_index/packages/velocity_controllers
+[34.241s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/velocity_controllers
+[34.257s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.275s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.292s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[34.309s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig.cmake
+[34.325s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig-version.cmake
+[34.338s] -- Symlinking: /home/ylspyrou/humble_ws/install/velocity_controllers/share/velocity_controllers/package.xml
+[34.354s] Invoked command in '/home/ylspyrou/humble_ws/build/velocity_controllers' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller:/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/forward_command_controller/lib:/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/velocity_controllers

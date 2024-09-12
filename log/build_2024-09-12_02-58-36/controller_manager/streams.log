@@ -1,0 +1,154 @@
+[0.049s] Invoking command in '/home/ylspyrou/humble_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/controller_manager
+[0.140s] -- The C compiler identification is GNU 9.4.0
+[0.205s] -- The CXX compiler identification is GNU 9.4.0
+[0.212s] -- Check for working C compiler: /usr/bin/cc
+[0.309s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.309s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.409s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.503s] -- Detecting CXX compiler ABI info
+[0.591s] -- Detecting CXX compiler ABI info - done
+[0.604s] -- Detecting CXX compile features
+[0.604s] -- Detecting CXX compile features - done
+[0.607s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.638s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.638s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.907s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.991s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.997s] -- Found controller_interface: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_interface/share/controller_interface/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.080s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.188s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.218s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.982s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.985s] -- Looking for pthread.h
+[2.063s] -- Looking for pthread.h - found
+[2.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.153s] -- Looking for pthread_create in pthreads
+[2.220s] -- Looking for pthread_create in pthreads - not found
+[2.220s] -- Looking for pthread_create in pthread
+[2.295s] -- Looking for pthread_create in pthread - found
+[2.295s] -- Found Threads: TRUE  
+[2.573s] -- Found controller_manager_msgs: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[2.699s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.701s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.703s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.706s] -- Found ros2_control_test_assets: 0.11.0 (/home/ylspyrou/humble_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.785s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.798s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.833s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.837s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.837s] -- Configured cppcheck include dirs: /home/ylspyrou/humble_ws/src/ros2_control/controller_manager/include
+[2.837s] -- Configured cppcheck exclude dirs and/or files: 
+[2.842s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.842s] -- Added test 'lint_cmake' to check CMake code style
+[2.843s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.844s] -- Added test 'xmllint' to check XML markup files
+[2.850s] -- Configuring done
+[3.019s] -- Generating done
+[3.023s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/controller_manager
+[3.042s] Invoked command in '/home/ylspyrou/humble_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/controller_manager
+[3.043s] Invoking command in '/home/ylspyrou/humble_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/controller_manager -- -j2 -l2
+[3.103s] [35m[1mScanning dependencies of target controller_manager[0m
+[3.194s] [  4%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[13.672s] [  8%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[14.414s] [  8%] Built target controller_manager
+[14.427s] [35m[1mScanning dependencies of target gmock[0m
+[14.451s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[17.470s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[19.133s] [ 20%] [32m[1mLinking CXX static library libgmock.a[0m
+[19.201s] [ 20%] Built target gmock
+[19.212s] [35m[1mScanning dependencies of target gmock_main[0m
+[19.231s] [ 24%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[20.133s] [ 28%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[20.167s] [ 28%] Built target gmock_main
+[20.179s] [35m[1mScanning dependencies of target test_controller_with_interfaces[0m
+[20.247s] [ 32%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[23.942s] [ 36%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[24.122s] [ 36%] Built target test_controller_with_interfaces
+[24.145s] [35m[1mScanning dependencies of target test_controller[0m
+[24.223s] [ 40%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[28.119s] [ 44%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[28.258s] [ 44%] Built target test_controller
+[28.270s] [35m[1mScanning dependencies of target ros2_control_node[0m
+[28.321s] [ 48%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[31.418s] [ 52%] [32m[1mLinking CXX executable ros2_control_node[0m
+[31.998s] [ 52%] Built target ros2_control_node
+[32.012s] [35m[1mScanning dependencies of target test_controller_failed_init[0m
+[32.071s] [ 56%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[34.981s] [ 60%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[35.117s] [ 60%] Built target test_controller_failed_init
+[35.128s] [35m[1mScanning dependencies of target test_release_interfaces[0m
+[35.188s] [ 64%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[39.327s] [ 68%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[40.115s] [ 68%] Built target test_release_interfaces
+[40.127s] [35m[1mScanning dependencies of target test_controller_manager[0m
+[40.182s] [ 72%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[44.642s] [ 76%] [32m[1mLinking CXX executable test_controller_manager[0m
+[45.491s] [ 76%] Built target test_controller_manager
+[45.502s] [35m[1mScanning dependencies of target test_load_controller[0m
+[45.555s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[51.081s] [ 84%] [32m[1mLinking CXX executable test_load_controller[0m
+[51.936s] [ 84%] Built target test_load_controller
+[51.947s] [35m[1mScanning dependencies of target test_spawner_unspawner[0m
+[52.008s] [ 88%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[56.140s] [ 92%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[56.920s] [ 92%] Built target test_spawner_unspawner
+[56.933s] [35m[1mScanning dependencies of target test_controller_manager_srvs[0m
+[56.994s] [ 96%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[66.476s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[67.735s] [100%] Built target test_controller_manager_srvs
+[67.751s] Invoked command in '/home/ylspyrou/humble_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/controller_manager -- -j2 -l2
+[67.806s] Invoking command in '/home/ylspyrou/humble_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/controller_manager
+[67.820s] -- Install configuration: ""
+[67.821s] -- Execute custom install script
+[67.829s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/libcontroller_manager.so
+[67.842s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[67.851s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[67.860s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[67.872s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[67.882s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/controller_manager/spawner.py
+[67.896s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/controller_manager/unspawner.py
+[67.906s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[67.917s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/libtest_controller.so
+[67.927s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[67.939s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[67.948s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[67.958s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[67.974s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[67.985s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[67.999s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py
+[68.009s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py
+[68.021s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py
+[68.033s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[68.044s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[68.055s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[68.067s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[68.077s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[68.088s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[68.100s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[68.118s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[68.122s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[68.133s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[68.144s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[68.154s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[68.164s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/package.dsv
+[68.174s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[68.184s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[68.195s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[68.205s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.216s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.226s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[68.236s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[68.246s] -- Symlinking: /home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/package.xml
+[68.307s] Listing '/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager'...
+[68.308s] Compiling '/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py'...
+[68.308s] Compiling '/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py'...
+[68.308s] Compiling '/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py'...
+[68.318s] Invoked command in '/home/ylspyrou/humble_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/controller_manager

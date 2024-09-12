@@ -1,0 +1,93 @@
+[0.032s] Invoking command in '/home/ylspyrou/humble_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/transmission_interface
+[0.148s] -- The C compiler identification is GNU 9.4.0
+[0.213s] -- The CXX compiler identification is GNU 9.4.0
+[0.218s] -- Check for working C compiler: /usr/bin/cc
+[0.318s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.319s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.409s] -- Detecting C compile features
+[0.410s] -- Detecting C compile features - done
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.517s] -- Detecting CXX compiler ABI info
+[0.618s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.634s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.679s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.679s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.021s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.054s] -- Found hardware_interface: 0.11.0 (/home/ylspyrou/humble_ws/install/hardware_interface/share/hardware_interface/cmake)
+[1.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.115s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.234s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.268s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.015s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.016s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.105s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.111s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.112s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.162s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.176s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.177s] -- Configured cppcheck include dirs: /home/ylspyrou/humble_ws/src/ros2_control/transmission_interface/include;/home/ylspyrou/humble_ws/src/ros2_control/transmission_interface/hardware_interface
+[2.177s] -- Configured cppcheck exclude dirs and/or files: 
+[2.178s] -- Added test 'lint_cmake' to check CMake code style
+[2.180s] -- Added test 'xmllint' to check XML markup files
+[2.191s] -- Configuring done
+[2.274s] -- Generating done
+[2.284s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/transmission_interface
+[2.299s] Invoked command in '/home/ylspyrou/humble_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/transmission_interface
+[2.303s] Invoking command in '/home/ylspyrou/humble_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/transmission_interface -- -j2 -l2
+[2.372s] [35m[1mScanning dependencies of target gmock[0m
+[2.398s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.835s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[8.944s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.022s] [ 27%] Built target gmock
+[9.032s] [35m[1mScanning dependencies of target gmock_main[0m
+[9.055s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[10.107s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[10.144s] [ 45%] Built target gmock_main
+[10.156s] [35m[1mScanning dependencies of target test_four_bar_linkage_transmission[0m
+[10.189s] [ 54%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[12.362s] [ 63%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[12.648s] [ 63%] Built target test_four_bar_linkage_transmission
+[12.659s] [35m[1mScanning dependencies of target test_differential_transmission[0m
+[12.713s] [ 72%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[15.037s] [ 81%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[15.352s] [ 81%] Built target test_differential_transmission
+[15.363s] [35m[1mScanning dependencies of target test_simple_transmission[0m
+[15.411s] [ 90%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[17.631s] [100%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[17.927s] [100%] Built target test_simple_transmission
+[17.942s] Invoked command in '/home/ylspyrou/humble_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/transmission_interface -- -j2 -l2
+[17.974s] Invoking command in '/home/ylspyrou/humble_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/transmission_interface
+[17.985s] -- Install configuration: ""
+[17.986s] -- Execute custom install script
+[17.987s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[17.996s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[18.006s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[18.021s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[18.034s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[18.044s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[18.054s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[18.065s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+[18.084s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[18.098s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[18.108s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[18.120s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[18.132s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[18.140s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[18.149s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[18.159s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[18.168s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[18.185s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[18.195s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[18.206s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[18.216s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[18.228s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.238s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.247s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[18.257s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[18.267s] -- Symlinking: /home/ylspyrou/humble_ws/install/transmission_interface/share/transmission_interface/package.xml
+[18.283s] Invoked command in '/home/ylspyrou/humble_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/transmission_interface

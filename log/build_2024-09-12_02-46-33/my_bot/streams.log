@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/ylspyrou/humble_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ylspyrou/humble_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/my_bot
+[0.078s] -- The C compiler identification is GNU 9.4.0
+[0.131s] -- The CXX compiler identification is GNU 9.4.0
+[0.135s] -- Check for working C compiler: /usr/bin/cc
+[0.207s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.207s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.301s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.383s] -- Detecting CXX compiler ABI info
+[0.466s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Detecting CXX compile features
+[0.477s] -- Detecting CXX compile features - done
+[0.479s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.503s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.503s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.660s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.680s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.750s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.764s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.766s] -- Added test 'lint_cmake' to check CMake code style
+[0.767s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.776s] -- Added test 'xmllint' to check XML markup files
+[0.778s] -- Configuring done
+[0.780s] -- Generating done
+[0.781s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/my_bot
+[0.787s] Invoked command in '/home/ylspyrou/humble_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ylspyrou/humble_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/my_bot
+[0.790s] Invoking command in '/home/ylspyrou/humble_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/my_bot -- -j2 -l2
+[0.835s] Invoked command in '/home/ylspyrou/humble_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/my_bot -- -j2 -l2
+[0.867s] Invoking command in '/home/ylspyrou/humble_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/my_bot
+[0.879s] -- Install configuration: ""
+[0.879s] -- Execute custom install script
+[0.879s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.889s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.898s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.908s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.918s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.929s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.940s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.949s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.959s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.968s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.977s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.989s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.004s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/rplidar_launch.py
+[1.014s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.025s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.034s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/worlds/obsticles.world
+[1.045s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/worlds/obsticles2.world
+[1.055s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.065s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.076s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.086s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.101s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.112s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.124s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.134s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.143s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.153s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.164s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/package.dsv
+[1.179s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.190s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.200s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.212s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/package.xml
+[1.230s] Invoked command in '/home/ylspyrou/humble_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/my_bot

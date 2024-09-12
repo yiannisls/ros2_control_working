@@ -1,0 +1,15 @@
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/DynamicJointState.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/GripperCommand.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/InterfaceValue.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/JointControllerState.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/JointJog.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/JointTolerance.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/JointTrajectoryControllerState.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:msg/PidState.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:srv/QueryCalibrationState.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:srv/QueryTrajectoryState.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:action/FollowJointTrajectory.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:action/GripperCommand.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:action/JointTrajectory.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:action/PointHead.idl
+/home/ylspyrou/humble_ws/build/control_msgs/rosidl_adapter/control_msgs:action/SingleJointPosition.idl

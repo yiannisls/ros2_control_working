@@ -1,0 +1,39 @@
+[0.024s] Invoking command in '/home/ylspyrou/humble_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ylspyrou/humble_ws/install/serial_motor_demo:/home/ylspyrou/humble_ws/install/ros2controlcli:/home/ylspyrou/humble_ws/install/ros2_control_test_nodes:/home/ylspyrou/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/my_bot -- -j2 -l2
+[0.096s] Invoked command in '/home/ylspyrou/humble_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ylspyrou/humble_ws/install/serial_motor_demo:/home/ylspyrou/humble_ws/install/ros2controlcli:/home/ylspyrou/humble_ws/install/ros2_control_test_nodes:/home/ylspyrou/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/my_bot -- -j2 -l2
+[0.139s] Invoking command in '/home/ylspyrou/humble_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ylspyrou/humble_ws/install/serial_motor_demo:/home/ylspyrou/humble_ws/install/ros2controlcli:/home/ylspyrou/humble_ws/install/ros2_control_test_nodes:/home/ylspyrou/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/my_bot
+[0.155s] -- Install configuration: ""
+[0.155s] -- Execute custom install script
+[0.156s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.156s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.156s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.157s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.157s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.157s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.157s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.158s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.158s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.158s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.159s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.159s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[0.159s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.159s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/rplidar_launch.py
+[0.159s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.160s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.160s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/worlds/obsticles.world
+[0.161s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/worlds/obsticles2.world
+[0.161s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.162s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.162s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.162s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.163s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.163s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.163s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.164s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.164s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.165s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.165s] -- Symlinking: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/package.dsv
+[0.177s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.180s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.180s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.180s] -- Up-to-date symlink: /home/ylspyrou/humble_ws/install/my_bot/share/my_bot/package.xml
+[0.181s] Invoked command in '/home/ylspyrou/humble_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ylspyrou/humble_ws/install/serial_motor_demo:/home/ylspyrou/humble_ws/install/ros2controlcli:/home/ylspyrou/humble_ws/install/ros2_control_test_nodes:/home/ylspyrou/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/my_bot

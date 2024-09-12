@@ -1,0 +1,99 @@
+[0.097s] Invoking command in '/home/ylspyrou/humble_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/forward_command_controller
+[0.217s] -- The C compiler identification is GNU 9.4.0
+[0.297s] -- The CXX compiler identification is GNU 9.4.0
+[0.306s] -- Check for working C compiler: /usr/bin/cc
+[0.395s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.395s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.484s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.580s] -- Detecting CXX compiler ABI info
+[0.677s] -- Detecting CXX compiler ABI info - done
+[0.689s] -- Detecting CXX compile features
+[0.689s] -- Detecting CXX compile features - done
+[0.692s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.719s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.904s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.932s] -- Found controller_interface: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_interface/share/controller_interface/cmake)
+[0.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.003s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.126s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.162s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.075s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.080s] -- Looking for pthread.h
+[2.182s] -- Looking for pthread.h - found
+[2.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.296s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.297s] -- Looking for pthread_create in pthreads
+[2.363s] -- Looking for pthread_create in pthreads - not found
+[2.363s] -- Looking for pthread_create in pthread
+[2.450s] -- Looking for pthread_create in pthread - found
+[2.450s] -- Found Threads: TRUE  
+[2.805s] -- Found realtime_tools: 2.2.0 (/home/ylspyrou/humble_ws/install/realtime_tools/share/realtime_tools/cmake)
+[2.923s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.924s] -- Found controller_manager: 0.11.0 (/home/ylspyrou/humble_ws/install/controller_manager/share/controller_manager/cmake)
+[2.998s] -- Found ros2_control_test_assets: 0.11.0 (/home/ylspyrou/humble_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.001s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.009s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.010s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.228s] -- Configuring done
+[3.299s] -- Generating done
+[3.301s] -- Build files have been written to: /home/ylspyrou/humble_ws/build/forward_command_controller
+[3.316s] Invoked command in '/home/ylspyrou/humble_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylspyrou/humble_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ylspyrou/humble_ws/install/forward_command_controller
+[3.320s] Invoking command in '/home/ylspyrou/humble_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/forward_command_controller -- -j2 -l2
+[3.369s] [35m[1mScanning dependencies of target gmock[0m
+[3.394s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[7.180s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[9.433s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.515s] [ 27%] Built target gmock
+[9.528s] [35m[1mScanning dependencies of target gmock_main[0m
+[9.549s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[10.584s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[10.637s] [ 45%] Built target gmock_main
+[10.648s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[10.764s] [ 54%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[17.623s] [ 63%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[18.069s] [ 63%] Built target forward_command_controller
+[18.082s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[18.159s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[22.795s] [ 81%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[23.725s] [ 81%] Built target test_load_forward_command_controller
+[23.741s] [35m[1mScanning dependencies of target test_forward_command_controller[0m
+[23.821s] [ 90%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[30.887s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[31.912s] [100%] Built target test_forward_command_controller
+[31.940s] Invoked command in '/home/ylspyrou/humble_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylspyrou/humble_ws/build/forward_command_controller -- -j2 -l2
+[31.980s] Invoking command in '/home/ylspyrou/humble_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/forward_command_controller
+[32.005s] -- Install configuration: ""
+[32.008s] -- Execute custom install script
+[32.010s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller//forward_command_plugin.xml
+[32.023s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp
+[32.039s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/include/forward_command_controller/visibility_control.h
+[32.051s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/lib/libforward_command_controller.so
+[32.079s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[32.095s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[32.106s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[32.120s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[32.139s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[32.159s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[32.187s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[32.219s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[32.235s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[32.249s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[32.273s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[32.292s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[32.311s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/package.dsv
+[32.328s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[32.345s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[32.358s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.372s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.384s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[32.405s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[32.417s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[32.429s] -- Symlinking: /home/ylspyrou/humble_ws/install/forward_command_controller/share/forward_command_controller/package.xml
+[32.443s] Invoked command in '/home/ylspyrou/humble_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylspyrou/humble_ws/install/controller_manager:/home/ylspyrou/humble_ws/install/controller_interface:/home/ylspyrou/humble_ws/install/hardware_interface:/home/ylspyrou/humble_ws/install/ros2_control_test_assets:/home/ylspyrou/humble_ws/install/realtime_tools:/home/ylspyrou/humble_ws/install/controller_manager_msgs:/home/ylspyrou/humble_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ylspyrou/humble_ws/install/controller_manager/lib:/home/ylspyrou/humble_ws/install/controller_interface/lib:/home/ylspyrou/humble_ws/install/hardware_interface/lib:/home/ylspyrou/humble_ws/install/realtime_tools/lib:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib:/home/ylspyrou/humble_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylspyrou/humble_ws/install/controller_manager/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/ylspyrou/humble_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylspyrou/humble_ws/build/forward_command_controller

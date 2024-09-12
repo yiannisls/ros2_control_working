@@ -1,0 +1,1 @@
+/home/ylspyrou/humble_ws/build/tricycle_controller/ament_cmake_environment_hooks/local_setup.bash
